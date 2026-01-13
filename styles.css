@@ -1,0 +1,89 @@
+:root {
+    /* Farge variabler */
+    --primaryColor: #fcc388ff; /* Peach */
+    --secondaryColor: #ffc5c9ff; /* Tea rose red*/
+    --accentColor: #ffffd1ff; /* Cream */
+    --accentColorTwo: #fee5d0ff; /* Champagne pink*/
+    --accentColorThree: #fff6edff; /* Seashell */
+    background-color: rgb(64, 64, 64);
+    
+  
+    /* Størrelse variabler */
+    --smallSpace: 8px;
+    --mediumSpace: 16px;
+    --largeSpace: 24px;
+    --fullScreen: 100svh;
+  
+    /* Skrift variabler */
+    --fontFamily: "Roboto";
+    --fontSize: 18px;
+  }
+
+  header {
+    display: flex;
+    align-items: center;
+
+    justify-content: space-between;
+    border-bottom: 3px solid black;
+    
+
+  }
+
+  .logo {
+    color: white;
+    border: 2px solid white;
+  }
+
+  .navList, a{
+    display: flex;
+    color: white;
+    gap: 10px;
+    list-style: none;
+    text-decoration: none;
+    
+    
+  }
+
+
+  main {
+
+    
+    
+    
+  }
+
+  .hero{
+    display: flex;
+    flex-direction: column;
+    border: 4px solid black;
+    margin: 10px;
+    
+    
+    
+  }
+
+  .hero-headline{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 300px;
+    margin-top: 40px;
+  }
+
+  .hero-layout{
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  .hero-kort{
+    border: 1px solid black;
+    color: white;
+    margin: 10px;
+    text-align: center;
+    
+
+  }
+
+  footer {
+
+  }
