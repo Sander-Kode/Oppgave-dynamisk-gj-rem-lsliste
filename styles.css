@@ -1,28 +1,24 @@
 :root {
     /* Farge variabler */
-    --primaryColor: #fcc388ff; /* Peach */
-    --secondaryColor: #ffc5c9ff; /* Tea rose red*/
-    --accentColor: #ffffd1ff; /* Cream */
-    --accentColorTwo: #fee5d0ff; /* Champagne pink*/
-    --accentColorThree: #fff6edff; /* Seashell */
-    background-color: rgb(64, 64, 64);
+    
     
   
     /* Størrelse variabler */
-    --smallSpace: 8px;
+    /* --smallSpace: 8px;
     --mediumSpace: 16px;
     --largeSpace: 24px;
-    --fullScreen: 100svh;
+    --fullScreen: 100svh; */
   
     /* Skrift variabler */
-    --fontFamily: "Roboto";
-    --fontSize: 18px;
+    /* --fontFamily: "Roboto";
+    --fontSize: 18px; */
   }
 
   body {
     width: 100%;
     max-width: 1440px;
     margin: 0 auto;
+    background-color: rgb(64, 64, 64);
     
     
     
